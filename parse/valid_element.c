@@ -6,7 +6,7 @@
 /*   By: arajaona <arajaona@student.42antanana      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/04 15:25:31 by arajaona          #+#    #+#             */
-/*   Updated: 2025/05/20 12:49:16 by arajaona         ###   ########.fr       */
+/*   Updated: 2025/05/20 13:03:16 by arajaona         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,8 @@ int	valid_vec(char *s)
 			if (n > 0)
 				return (0);
 		}
-		if ((s[i] == ',' && i - 1 > 0 && !ft_isdigit(s[i - 1])) || (i == 0 && s[i] == ','))
+		if ((s[i] == ',' && i - 1 > 0 && !ft_isdigit(s[i - 1]))
+			|| (i == 0 && s[i] == ','))
 			return (0);
 		if (!s[i] || s[i] == '\n')
 			break ;
