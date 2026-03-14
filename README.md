@@ -9,7 +9,7 @@
 Example:
 
 ```bash
-./miniRT scenes/sample.rt
+./miniRT map/map.rt
 ```
 
 ## `scenes/sample.rt` (scene file)
