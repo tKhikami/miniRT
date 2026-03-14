@@ -26,6 +26,7 @@ A `.rt` file is a plain text file where **each line describes one element** of t
 Each element line is followed by its values (position, direction, size, color, etc.).
 
 ## Controls (keyboard / mouse)
+**Every controls key is log in the terminal. Just follow them especially when you select camera and light using `c` and `l` key**
 
 - `ESC` : quit
 
