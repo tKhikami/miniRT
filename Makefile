@@ -71,7 +71,7 @@ libft.a :
 	@make bonus --no-print-directory -C libft/
 
 %.o: %.c
-	$(CC) $(FLAGS) -c $< -o obj/$@
+	$(CC) -c $< -o obj/$@
 
 $(NAME): $(OBJ)
 	cd obj && $(CC) $(OBJ) -o ../$(NAME) $(FLAGS) $(FLAGS_) -L../$(LIB_PATH) -I../$(LIB_PATH) 
