@@ -1,5 +1,5 @@
 # miniRT (executable)
-
+**map directory contain sample map for testing. User can create his own map (juste follow the syntaxe)**
 ## Run
 
 ```bash
