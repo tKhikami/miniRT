@@ -1,4 +1,9 @@
-# miniRT (executable)
+# This repository is created as part of 42 project by Randrianirina Ny toky Antonio and Antema Fiderana Rajaonarivony.
+# email:
+  - Antonio: tokyrakotomahefa@gmail.com
+  - Fiderana: fidy4nimada@gmail.com
+
+## miniRT (executable)
 **map directory contain sample map for testing. User can create his own map (juste follow the syntaxe)**
 ## Run
 
